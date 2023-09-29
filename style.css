@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.heading{
+    font-family: monospace;
+    font-size: large;
+    color:brown;
+}
+
+.list{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    font-family: monospace;
+    font-size: 1.2rem;
+
+}
