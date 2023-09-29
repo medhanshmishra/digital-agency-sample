@@ -2,18 +2,51 @@
     display: flex;
     justify-content: space-around;
 }
+h1:hover{
+    color: rgb(93, 93, 145);
+}
+
 .heading{
     font-family: monospace;
     font-size: large;
-    color:brown;
+    color:black;
+    font-size: 20px; 
 }
 
-.list{
+.list {
     display: flex;
     align-items:center;
     justify-content: center;
-    gap: 20px;
-    font-family: monospace;
+    gap: 28px;
     font-size: 1.2rem;
-
+    text-decoration: none
 }
+.list a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+a:hover{
+    color: blue;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+i{
+    cursor: pointer;
+}
+.herosection{
+    background-color: blue;
+    width: 100%;
+    padding: 50%;
+    padding-bottom: 23px;
+}
+
+
+.heading h1 span{
+    color: blue;
+    width: fit-content;
+} 
+
