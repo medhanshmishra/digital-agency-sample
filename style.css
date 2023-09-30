@@ -63,4 +63,18 @@ button:hover{
     color: blue;
     width: fit-content;
 } 
+.hero{
+    position: absolute;
+    top: 50%;
+    margin: 5rem;
+    padding-bottom: 12px;
+}
+.section2{
+    width: 50%;
+    border-radius: 12rem;
+}
+ 
+p.hero{
+    padding-left: 34rem;
+}
 
