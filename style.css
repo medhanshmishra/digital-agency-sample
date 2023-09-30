@@ -73,8 +73,27 @@ button:hover{
     width: 50%;
     border-radius: 12rem;
 }
- 
-p.hero{
-    padding-left: 34rem;
+.section2{
+border-radius: inherit;
+
+} 
+.icon3{
+    cursor: pointer;
+}
+
+.icons2{
+    cursor: pointer;
+}
+.icons1{
+    cursor: pointer;
+}
+.icons1:hover{
+    color: blue;
+}
+.icons2:hover{
+    color: blue;
+}
+.icon3:hover{
+    color: blue;
 }
 
