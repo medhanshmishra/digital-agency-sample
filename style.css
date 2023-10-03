@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
 .navbar{
     display: flex;
     justify-content: space-around;
 }
 h1:hover{
-    color: rgb(92,0,65)
+    color: blue;
 }
 
 .heading{
@@ -11,29 +12,41 @@ h1:hover{
     font-size:x-large;
     color:black;
     font-size: 20px; 
+    padding: 0px 15px 0px 15px;
 }
 
 .list {
-    display: flex;
+    display: inline-flex;
     align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 28px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    font-weight: 300;
     text-decoration: none
 }
 .list a{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list svg{
+    color: #3d4459;
 }
 a:hover{
-    color: blue;
+    color:blue;
 }
 .icons{
     display: flex;
     gap: 20px;
     align-items: center;
+    font-weight: 200;
 }
+
 i{
     cursor: pointer;
 }
@@ -47,17 +60,25 @@ i{
     align-items: center;
     justify-content: center;
     width: 168;
+    height: 100%;
     position: absolute;
+    margin: 40px;
+}
+
+.image2{
+    margin: 46px;
 }
 
 .section2{
     width: 50%;
     border-radius: 12rem;
 }
-.section2{
-border-radius: inherit;
 
-} 
+.section2{
+    border-radius: inherit;
+
+}
+ 
 .icon3{
     cursor: pointer;
 }
@@ -102,20 +123,24 @@ border-radius: inherit;
     flex: 1;
     padding: 20px;
     max-width: 600px;
+    font-family: "Varela Round", Sans-serif;
+    margin: 49px;
 }
 /* Style for the hero2 content */
 .hero1 {
     flex: 1;
     padding: 20px;
     max-width: 600px;
+    margin: 71px;
 }
 
 .hero p {
     font-size: 20px;
-    color: white;
+    color: #ffffff;
     font-weight: 200;
     text-transform: capitalize;
-    line-height: 1.2em;
+    line-height: 1.1em;
+    font-family: "Montserrat", Sans-serif;
 }
 /* style for second p */
 .hero1 p {
@@ -127,10 +152,11 @@ border-radius: inherit;
 
 .hero h1 {
     font-size: 45px;
-    color: white;
+    color: rgb(255, 247, 247);
     font-weight: 300;
     text-transform: capitalize;
     line-height: 1.2;
+    font-family: "Varela Round", Sans-serif;
 }
 /* style for second h1 */
 .hero1 h1{
@@ -143,14 +169,17 @@ border-radius: inherit;
 }
 
 .button {
-    background-color: #007BFF;
+    background-color: rgb(0,218,252);
     color: #fff;
     padding: 12px 31px;
     border: none;
     border-radius: 30px;
     cursor: pointer;
-    font-size: 20px;
-    font-family: monospace;
+    font-size: 15px;
+    font-family: "Montserrat", Sans-serif;
+    display: flex;
+    font-weight: 500;
+    gap: 5px;
 }
 
 .button {
@@ -165,7 +194,7 @@ border-radius: inherit;
 }
 
 .button {
-    background-color: #0056b3;     
+    background-color: rgb(0,218,252);     
     color: #fff;
     padding: 12px 31px;
     border: none;
@@ -176,6 +205,7 @@ border-radius: inherit;
 }
 
 .problems{
+    background-color: rgb(229,253,255);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -203,7 +233,7 @@ border-radius: inherit;
 }
 
 .button:hover {
-    background-color:aquamarines;
+    background-color: #4632da;
 }
 .image1{
     position: inherit;
@@ -227,5 +257,6 @@ border-radius: inherit;
     padding: 20px;
     border-radius: 100px 100px 300px 100px;
 }
+
 
 
