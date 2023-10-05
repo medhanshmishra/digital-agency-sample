@@ -305,12 +305,24 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -8px;
 }
 .card1{
-    margin-left: 49px;
+    margin-left: 20px;
     background-color: #ffffff;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
     margin: 3% 3% 3% 3%;
-    padding: 14% 14% 14% 14%;
+    padding: 3% 51% 31% 20%;
+    border-radius: 15px 15px 15px 70px;
+    box-sizing: border-box;
+
+    
 }
+
+.card1 img{
+    margin-left: -2px;
+    width: 113px;
+}
+
+
 
