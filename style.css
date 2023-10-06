@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -288,14 +289,30 @@ i{
     width: 70px;
    margin: 27px;
 }
-.card h1{
-    color: #3d4459;
-    font-family: "Varela Round", Sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: capitalize;
+/* card main iv styling */
+.cards-inline{
+    display: flex;
 }
-
+/*first card styling  */
+.card {
+        width: 300px; 
+        height: auto; 
+        padding: 20px;
+        border: none;
+        border-radius: 15px 15px 15px 70px;
+        box-shadow: 7px 11px 20px 9px rgba(0,0,0,0.05);
+        padding-right: 104px;
+        padding-top: 35px;
+        padding-bottom: 39px;
+        margin: 39px;
+}
+.card-content{
+    margin-left: 35px;
+}
+.card1 img{
+    margin-left: -2px;
+    width: 113px;
+}
 .card button{
     font-family: "Montserrat", Sans-serif;
     font-size: 15px;
@@ -306,23 +323,92 @@ i{
     align-items: center;
     justify-content: center;
     margin-left: -8px;
+    cursor: pointer;
 }
-.card1{
-    margin-left: 20px;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.05);
-    margin: 3% 3% 3% 3%;
-    padding: 3% 51% 31% 20%;
+.card h1{
+    color: #3d4459;
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* second card slyling*/
+.card2{
+    width: 300px; 
+    height: auto; 
+    padding: 20px;
+    border: none;
     border-radius: 15px 15px 15px 70px;
-    box-sizing: border-box;
-
-    
+    box-shadow: 7px 11px 20px 9px rgba(0,0,0,0.05);
+    padding-right: 104px;
+    padding-top: 35px;
+    padding-bottom: 39px;
+    margin: 39px;
 }
-
-.card1 img{
+.card2-content{
+    margin-left: 35px;
+}
+.card2 img{
     margin-left: -2px;
     width: 113px;
 }
-
+.card2 button{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    color: #4632da;
+    background-color: white;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -8px;
+    cursor: pointer;
+}
+.card2 h1{
+    color: #3d4459;
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* third card styling  */
+.card3{
+    width: 300px; 
+    height: auto; 
+    padding: 20px;
+    border: none;
+    border-radius: 15px 15px 15px 70px;
+    box-shadow: 7px 11px 20px 9px rgba(0,0,0,0.05);
+    padding-right: 104px;
+    padding-top: 35px;
+    padding-bottom: 39px;
+    margin: 39px;
+}
+.card3-content{
+    margin-left: 35px;
+}
+.card3 img{
+    margin-left: -2px;
+    width: 113px;
+}
+.card3 button{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    color: #4632da;
+    background-color: white;
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -8px;
+    cursor: pointer;
+}
+.card3 h1{
+    color: #3d4459;
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
 
 
