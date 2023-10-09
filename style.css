@@ -132,6 +132,8 @@ i{
 
 .hero button{
     font-family: "Montserrat", Sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Style for the hero content */
@@ -181,6 +183,8 @@ i{
     font-family: "Montserrat", Sans-serif;
     margin: 30px;
     margin-left: 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .button {
@@ -409,5 +413,97 @@ i{
     font-weight: 400;
     text-transform: capitalize;
 }
+/* first photo styling */
+.photo{
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.08);
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: inherit;
+    margin-right: 60%;
+    margin-left: 161px;
+}
+
+.photo1-content h1{
+    margin-bottom: 10px;
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #00dafc;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 119px;
+    padding-top: 22px;
+}
+.photo1-content p{
+    margin-left: 127px;
+    font-family: "Montserrat", Sans-serif;
+    font-size:medium;
+    color: #3d4459;
+}
+/* second photo styling */
+.photo-3{
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.08);
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: inherit;
+    margin-right: 60%;
+    margin-left: 161px;
+}
+.photo2 img{
+    width: 100%;
+}
+
+.photo2-content h1{
+    margin-bottom: 10px;
+    font-family: "Varela Round", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #00dafc;
+    width: 100%;
+    margin: 0;
+    margin-left: 119px;
+    padding-top: 22px;
+}
+.photo2-content p{
+    margin-left: 127px;
+    font-family: "Montserrat", Sans-serif;
+    font-size:medium;
+    color: #3d4459;
+}
+
+/* herosection4 styling */
+.hero-section4 h1{
+    font-size: 45px;
+    color: #4632da;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 1.2em;
+    font-family: "Varela Round", Sans-serif;
+
+}
+
+.hero-section4 button{
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.hero-section4 p{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.box1{
+    display: flex;
+    width: 50%;
+}
+
+
 
 
