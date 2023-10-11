@@ -306,6 +306,7 @@ i{
 /* card main iv styling */
 .cards-inline{
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 /*first card styling  */
 .card {
@@ -523,6 +524,7 @@ i{
     padding: 20px 8px 50px 10px;
     display: flex;
     position: relative;
+    flex-wrap: wrap;
 }
 
 .button2 {
