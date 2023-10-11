@@ -27,6 +27,7 @@ h1:hover{
     font-weight: 300;
     text-decoration: none
 }
+
 .list a{
     text-decoration: none;
     color: black;
@@ -34,9 +35,13 @@ h1:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Poppins","Helvetica","Arial","sans-serif";
+    font-size: 16px;
 }
 .list svg{
-    color: #3d4459;
+    color: #797c85;
+    font-size: 16px;
+    font-weight: 600;
 }
 a:hover{
     color:blue;
@@ -107,7 +112,12 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+     
 }
+
 /* style for second herosection  */
 .hero2-section {
     background-color: white;
@@ -116,6 +126,7 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap-reverse;
 }
 .hero p{
     font-family: "Montserrat", Sans-serif;
@@ -308,6 +319,7 @@ i{
         padding-top: 35px;
         padding-bottom: 39px;
         margin: 39px;
+        flex-wrap: wrap-reverse;
 }
 .card-content{
     margin-left: 35px;
@@ -347,6 +359,7 @@ i{
     padding-top: 35px;
     padding-bottom: 39px;
     margin: 39px;
+    flex-wrap: wrap-reverse;
 }
 .card2-content{
     margin-left: 35px;
