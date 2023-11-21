@@ -303,11 +303,11 @@ i{
     width: 70px;
    margin: 27px;
 }
-/* card main iv styling */
+/* card main div styling */
 .cards-inline{
     display: flex;
-    flex-wrap: wrap-reverse;
 }
+
 /*first card styling  */
 .card {
         width: 300px; 
@@ -544,7 +544,7 @@ i{
 .button2:hover{
     color:blue;
 }
-
+    
 .digital img {
     display: inline-block;
     max-width: 100%;
@@ -552,6 +552,19 @@ i{
     position: none;
     padding: 20px;
     border-radius: 300px 100px 100px 100px; 
+}
+
+.content-footer h2{
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #3d4459;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
 }
 
 
