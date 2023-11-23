@@ -554,18 +554,19 @@ i{
     border-radius: 300px 100px 100px 100px; 
 }
 
-.content-footer h2{
+.content{
+    padding: 0%;
+    margin: 0;
     align-items: center;
     justify-content: center;
-    font-family: "Montserrat", Sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    text-transform: capitalize;
-    color: #3d4459;
-    padding: 0;
-    margin: 0;
-    line-height: 1;
 }
+
+.meet{
+    align-items: center;
+    justify-content: center;
+}
+    
+
 
 
 
